@@ -10,7 +10,7 @@ const e = exposes.presets;
 const definition = {
     fingerprint: [
         {
-            ieeeAddr: '0xa0c00000d0e0c0', // 
+            ieeeAddr: '0xa0c00000d0e0c0', // нужно заменить на свой адрес IEEE
             modelID: 'TS011F',
             manufacturerName: '_TZ3000_pl5v1yyy',
         }
