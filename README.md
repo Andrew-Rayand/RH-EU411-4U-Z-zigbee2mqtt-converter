@@ -11,6 +11,7 @@ external_converters:
 3. Открыть дополнение File Editor и создать папку external_converters в каталоге:
 /homeassistant/zigbee2mqtt/
 4. Переместить скрипт RH-EU411-4U-Z.js в каталог: /homeassistant/zigbee2mqtt/external_converters/
-5. Перезагрузить дополнение Zigbee2MQTT.
+5. В файле RH-EU411-4U-Z.js заменить на свой IEEE адрес блока розеток.
+6. Перезагрузить дополнение Zigbee2MQTT.
 
 Проверено, работает корректно на версии Zigbee2MQTT: 2.6.0-1
