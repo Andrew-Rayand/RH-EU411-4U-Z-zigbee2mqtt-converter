@@ -27,6 +27,11 @@ const definition = {
         e.switch().withEndpoint('l3'),
         e.switch().withEndpoint('l4'),
         e.switch().withEndpoint('l5').withDescription('USB ports'),
+        e.power_on_behavior().withEndpoint('l1'),
+        e.power_on_behavior().withEndpoint('l2'),
+        e.power_on_behavior().withEndpoint('l3'),
+        e.power_on_behavior().withEndpoint('l4'),
+        e.power_on_behavior().withEndpoint('l5'),
     ],
 
     meta: {
